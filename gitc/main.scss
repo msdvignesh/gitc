@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.header {
+    .logo {
+        padding: 1rem;
+        svg {
+            height: 2em;
+            width: 6em;
+        }
+    }
+    nav {
+        ul {
+            li {
+                display: inline-block;
+                list-style-type: none;
+                margin: 3px;
+                padding: 10px;
+                a {
+                    text-decoration: none;
+                    color: b
+                }
+            }
+        }
+        .sub-menu {
+            display: none;
+            &:hover .menu-item {
+                display: block;
+            }
+        }
+    }
+}
